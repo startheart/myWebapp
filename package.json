@@ -1,0 +1,30 @@
+{
+  "name": "node-webapp",
+  "version": "0.0.1",
+  "description": "webapp base on node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "webapp"
+  ],
+  "author": "yanting",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "dependencies": {
+    "formidable": "^1.0.17",
+    "jscs": "~1.13.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "v0.10.33"
+  }
+}
